@@ -24,7 +24,7 @@ namespace GameEngine
             //set resolution
             graphics.PreferredBackBufferWidth = 1280;
             graphics.PreferredBackBufferHeight = 780;
-            graphics.IsFullScreen = true;
+            graphics.IsFullScreen = false;
             graphics.ApplyChanges();
             
             //
@@ -46,7 +46,6 @@ namespace GameEngine
 
         protected override void Update(GameTime gameTime)
         {
-
             CheckInput(gameTime);
             
             
@@ -55,6 +54,7 @@ namespace GameEngine
 
         private void CheckInput(GameTime gameTime1)
         {
+            
         }
 
 
