@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using Microsoft.Xna.Framework;
 
-namespace FNAClassCode
+namespace GameEngine.Utilites
 {
     static class Global
     {

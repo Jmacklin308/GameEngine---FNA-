@@ -1,10 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using Microsoft.Xna.Framework;
+﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 
-namespace FNAClassCode
+namespace GameEngine.Utilites
 {
     //If you use the Content Pipeline for XNA or MonoGame, textures have their alpha "pre multiplied" to prevent any weird artifacts.
     //If you're loading raw .pngs from your engine, they haven't been pre multipled so you'll likely see artifacts when drawing your images.

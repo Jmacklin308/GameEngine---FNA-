@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.IO;
+﻿using System.IO;
 using System.Xml.Serialization;
 
-namespace FNAClassCode
+namespace GameEngine.Utilites
 {
     public abstract class XmlHelper
     {
@@ -27,5 +24,9 @@ namespace FNAClassCode
             serializer.Serialize(writer, obj);
             writer.Close();
         }
+    }
+
+    public class LevelData
+    {
     }
 }

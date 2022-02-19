@@ -20,6 +20,12 @@ namespace GameEngine
         {
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
+
+            //set resolution
+            graphics.PreferredBackBufferWidth = 1280;
+            graphics.PreferredBackBufferHeight = 780;
+            graphics.IsFullScreen = true;
+            graphics.ApplyChanges();
         }
 
 
@@ -38,8 +44,15 @@ namespace GameEngine
 
         protected override void Update(GameTime gameTime)
         {
-            //Update the things FNA handles for us underneath the hood:
+
+            CheckInput(gameTime);
+            
+            
             base.Update(gameTime);
+        }
+
+        private void CheckInput(GameTime gameTime1)
+        {
         }
 
 
