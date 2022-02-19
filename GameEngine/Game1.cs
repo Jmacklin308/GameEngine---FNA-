@@ -26,6 +26,8 @@ namespace GameEngine
             graphics.PreferredBackBufferHeight = 780;
             graphics.IsFullScreen = true;
             graphics.ApplyChanges();
+            
+            //
         }
 
 
